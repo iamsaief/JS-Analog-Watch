@@ -13,5 +13,4 @@ setInterval(() => {
 	mn.style.transform = `rotateZ(${mm}deg)`;
 	sc.style.transform = `rotateZ(${ss}deg)`;
 
-	console.log(`${day}<=> ${hh} <=> ${mm} <=> ${ss}`);
 }, 1000);
