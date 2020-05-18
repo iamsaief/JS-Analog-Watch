@@ -63,30 +63,30 @@ body {
 	position: absolute;
 }
 .hour,
-.hr {
+.hour-hand {
 	width: 170px;
 	height: 170px;
 }
 .min,
-.mn {
+.min-hand {
 	width: 190px;
 	height: 190px;
 }
 .sec,
-.sc {
+.sec-hand {
 	width: 220px;
 	height: 220px;
 }
-.hr,
-.mn,
-.sc {
+.hour-hand,
+.min-hand,
+.sec-hand {
 	display: flex;
 	justify-content: center;
 	position: absolute;
 	border-radius: 50%;
 	transform: rotateZ(0deg);
 }
-.hr:before {
+.hour-hand:before {
 	content: '';
 	position: absolute;
 	width: 8px;
@@ -95,7 +95,7 @@ body {
 	border-radius: 6px 6px 0 0;
 	z-index: 10;
 }
-.mn:before {
+.min-hand:before {
 	content: '';
 	position: absolute;
 	width: 4px;
@@ -104,7 +104,7 @@ body {
 	border-radius: 6px 6px 0 0;
 	z-index: 11;
 }
-.sc:before {
+.sec-hand:before {
 	content: '';
 	position: absolute;
 	width: 2px;
